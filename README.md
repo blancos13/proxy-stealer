@@ -1,3 +1,4 @@
 # proxy-stealer
 Growtopia proxy acc stealer 
-auto send to discord webhook
+automatically sends accounts to the discord webhook"
+"
